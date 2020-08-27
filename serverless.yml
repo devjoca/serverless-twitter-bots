@@ -1,0 +1,18 @@
+service: twitter-bots
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  bot-handler:
+    handler: handler.main
+    cron:
+      active: true
+      value: "0 */2 * * *"
+
+plugins:
+  - serverless-python-requirements
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
