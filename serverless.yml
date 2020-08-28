@@ -7,9 +7,8 @@ provider:
 functions:
   bot-handler:
     handler: handler.main
-    cron:
-      active: true
-      value: "0 */2 * * *"
+    events:
+      - schedule: rate(2 hours)
 
 plugins:
   - serverless-python-requirements
