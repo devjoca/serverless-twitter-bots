@@ -18,9 +18,7 @@
  "url": "https://genius.com/artists/Valentin-y-los-volcanes",
  "current_user_metadata": {
   "permissions": [
-   "follow",
-   "view_activity_stream",
-   "view_contribution_opportunities"
+   "view_activity_stream"
   ],
   "excluded_permissions": [
    "edit",
@@ -29,6 +27,8 @@
    "edit_anything",
    "merge",
    "sort_artist_songs",
+   "follow",
+   "view_contribution_opportunities",
    "edit_translation_artist",
    "see_short_id"
   ],
@@ -104,29 +104,7 @@
       "pyong": false,
       "vote": null
      },
-     "iq_by_action": {
-      "accept": {
-       "primary": {
-        "multiplier": 1,
-        "base": 10.0,
-        "applicable": true
-       }
-      },
-      "reject": {
-       "primary": {
-        "multiplier": 1,
-        "base": 2.0,
-        "applicable": true
-       }
-      },
-      "delete": {
-       "primary": {
-        "multiplier": 1,
-        "base": 5.0,
-        "applicable": true
-       }
-      }
-     }
+     "iq_by_action": {}
     },
     "authors": [
      {
@@ -173,10 +151,10 @@
        "role_for_display": null,
        "url": "https://genius.com/pressburg",
        "current_user_metadata": {
-        "permissions": [
+        "permissions": [],
+        "excluded_permissions": [
          "follow"
         ],
-        "excluded_permissions": [],
         "interactions": {
          "following": false
         }
@@ -218,8 +196,8 @@
    "song_art_image_url": "https://images.genius.com/c7707b13008155288f5109230d5cc0e6.700x700x1.jpg",
    "stats": {
     "accepted_annotations": 0,
-    "contributors": 1,
-    "iq_earners": 1,
+    "contributors": 2,
+    "iq_earners": 2,
     "transcribers": 1,
     "unreviewed_annotations": 0,
     "verified_annotations": 0,
@@ -230,25 +208,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-baila-conmigo-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
-     "edit_anything",
-     "edit_any_media",
      "view_apple_music_player",
-     "edit_youtube_url",
-     "edit_soundcloud_url",
-     "edit_spotify_uuid",
-     "edit_vevo_url",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -258,11 +227,14 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
      "verify_lyrics",
      "unverify_lyrics",
+     "edit_anything",
+     "edit_any_media",
      "edit",
      "rename",
      "edit_tags",
@@ -285,10 +257,16 @@
      "mark_lyrics_evaluation_as_un_staff_approved",
      "view_transcriber_media_player",
      "override_apple_match",
+     "edit_youtube_url",
+     "edit_soundcloud_url",
+     "edit_spotify_uuid",
+     "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -296,18 +274,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610637",
@@ -400,29 +368,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -469,10 +415,10 @@
          "role_for_display": null,
          "url": "https://genius.com/pressburg",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -596,19 +542,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-costanera-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
      "view_apple_music_player",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -618,6 +561,7 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
@@ -652,9 +596,11 @@
      "edit_spotify_uuid",
      "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -662,18 +608,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610638",
@@ -699,9 +635,9 @@
      "artists": [
       {
        "api_path": "/artists/2138353",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138353,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Pablo Perazzo",
@@ -714,9 +650,9 @@
      "artists": [
       {
        "api_path": "/artists/2138352",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138352,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Francisco de la Canal",
@@ -729,9 +665,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -744,9 +680,9 @@
      "artists": [
       {
        "api_path": "/artists/2138351",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138351,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Nicol\u00e1s Kosinski",
@@ -754,9 +690,9 @@
       },
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -769,9 +705,9 @@
      "artists": [
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -852,29 +788,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -915,16 +829,16 @@
          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/awuoaf7gq48",
          "human_readable_role_for_display": "Editor",
          "id": 6385428,
-         "iq": 253417,
+         "iq": 264450,
          "login": "AgustinWicki",
          "name": "AgustinWicki",
          "role_for_display": "editor",
          "url": "https://genius.com/AgustinWicki",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -1038,16 +952,16 @@
    "writer_artists": [
     {
      "api_path": "/artists/2138343",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138343,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Jo Goyeneche",
      "url": "https://genius.com/artists/Jo-goyeneche"
     }
    ],
-   "lyrics": "[Letra de \"Costanera\"]\n\nYo s\u00e9 lo que esta noche a m\u00ed me espera\nVolver a la ciudad, la costanera\nEl\u2005mar\u2005y su pacifica\u2005desesperaci\u00f3n\nEl mundo se qued\u00f3 a tu\u2005alrededor\n\nMe gusta mucho esta ciudad costera\nDonde la soledad lleva tu voz\nLa playa esta vac\u00eda y yo se algo:\nEl mundo se qued\u00f3 a tu alrededor\n\nVoy a viajar\nAlrededor del mundo\nVivir la vida en un segundo\nEsperar que se haga el d\u00eda\nPara extra\u00f1arte\n\nPasar la noche a mil kil\u00f3metros de casa\n\nYo s\u00e9 lo que esta noche a m\u00ed me espera\nVolver a la ciudad, la costanera\nEl mar y su pacifica desesperaci\u00f3n\nEl mundo se qued\u00f3 a tu alrededor\n\nMe gusta mucho esta ciudad costera\nDonde la soledad lleva tu voz\nLa playa esta vac\u00eda pero se algo:\nEl amor que me diste no es m\u00e1s que una canci\u00f3n\n\nVoy a viajar\nAlrededor del mundo\nVivir la vida en un segundo\nEsperar que se haga el d\u00eda\nPara extra\u00f1arte\n\nPasar la noche a mil kil\u00f3metros de casa"
+   "lyrics": null
   },
   {
    "annotation_count": 0,
@@ -1087,19 +1001,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-decis-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
      "view_apple_music_player",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -1109,6 +1020,7 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
@@ -1143,9 +1055,11 @@
      "edit_spotify_uuid",
      "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -1153,18 +1067,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610638",
@@ -1190,9 +1094,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -1200,9 +1104,9 @@
       },
       {
        "api_path": "/artists/2138351",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138351,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Nicol\u00e1s Kosinski",
@@ -1215,9 +1119,9 @@
      "artists": [
       {
        "api_path": "/artists/2138352",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138352,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Francisco de la Canal",
@@ -1230,9 +1134,9 @@
      "artists": [
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -1245,9 +1149,9 @@
      "artists": [
       {
        "api_path": "/artists/2138353",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138353,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Pablo Perazzo",
@@ -1260,9 +1164,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -1343,29 +1247,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -1406,16 +1288,16 @@
          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/awuoaf7gq48",
          "human_readable_role_for_display": "Editor",
          "id": 6385428,
-         "iq": 253417,
+         "iq": 264450,
          "login": "AgustinWicki",
          "name": "AgustinWicki",
          "role_for_display": "editor",
          "url": "https://genius.com/AgustinWicki",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -1529,16 +1411,16 @@
    "writer_artists": [
     {
      "api_path": "/artists/2138343",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138343,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Jo Goyeneche",
      "url": "https://genius.com/artists/Jo-goyeneche"
     }
    ],
-   "lyrics": "[Letra de \"Dec\u00eds\"]\n\nDec\u00eds: el amor no nos alcanzar\u00e1\nYo s\u00e9 que es una herida nuestra vida y se\u2005va\nSe\u2005apaga y brilla\u2005el sol\n\nSi yo, si yo tambi\u00e9n\u2005lo hice alguna vez\nHay algo misterioso que me impide creer\nNo\u205fpagues\u205fcon\u205fdolor\n\nYa ves, hay\u205fcosas que no\u205fpuedo recordar\nLas fantasmagor\u00edas de una extra\u00f1a ciudad\nNo alcanza con vivir\n\nNo se si en este remolino en esta crisis de fe\nYa somos dos extra\u00f1os alej\u00e1ndose\nDel centro del amor\n\nSi ya, si ya no tengo el don de ser feliz\nNi donde emborrachar mis penas\nCuando dec\u00eds: no alcanza con amor\n\nDos buenos chicos se dicen adi\u00f3s\nHasta la vista que sea lo mejor\nPorque tal vez, sea lo mejor\nSi, las pel\u00edculas que vi\nTodas hablan de los dos"
+   "lyrics": null
   },
   {
    "annotation_count": 0,
@@ -1578,19 +1460,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-el-salto-de-sofia-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
      "view_apple_music_player",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -1600,6 +1479,7 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
@@ -1634,9 +1514,11 @@
      "edit_spotify_uuid",
      "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -1644,18 +1526,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610638",
@@ -1696,9 +1568,9 @@
      "artists": [
       {
        "api_path": "/artists/2138352",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138352,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Francisco de la Canal",
@@ -1711,9 +1583,9 @@
      "artists": [
       {
        "api_path": "/artists/2138353",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138353,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Pablo Perazzo",
@@ -1726,9 +1598,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -1741,9 +1613,9 @@
      "artists": [
       {
        "api_path": "/artists/2138351",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138351,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Nicol\u00e1s Kosinski",
@@ -1756,9 +1628,9 @@
      "artists": [
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -1839,29 +1711,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -1902,16 +1752,16 @@
          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/awuoaf7gq48",
          "human_readable_role_for_display": "Editor",
          "id": 6385428,
-         "iq": 253417,
+         "iq": 264450,
          "login": "AgustinWicki",
          "name": "AgustinWicki",
          "role_for_display": "editor",
          "url": "https://genius.com/AgustinWicki",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -2025,9 +1875,9 @@
    "writer_artists": [
     {
      "api_path": "/artists/2138343",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138343,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Jo Goyeneche",
@@ -2074,19 +1924,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-el-tonto-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
      "view_apple_music_player",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -2096,6 +1943,7 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
@@ -2130,9 +1978,11 @@
      "edit_spotify_uuid",
      "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -2140,18 +1990,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610638",
@@ -2177,9 +2017,9 @@
      "artists": [
       {
        "api_path": "/artists/2138353",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138353,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Pablo Perazzo",
@@ -2192,9 +2032,9 @@
      "artists": [
       {
        "api_path": "/artists/2138352",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138352,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Francisco de la Canal",
@@ -2207,9 +2047,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -2222,9 +2062,9 @@
      "artists": [
       {
        "api_path": "/artists/2138351",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138351,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Nicol\u00e1s Kosinski",
@@ -2232,9 +2072,9 @@
       },
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -2247,9 +2087,9 @@
      "artists": [
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -2330,29 +2170,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -2393,16 +2211,16 @@
          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/awuoaf7gq48",
          "human_readable_role_for_display": "Editor",
          "id": 6385428,
-         "iq": 253417,
+         "iq": 264450,
          "login": "AgustinWicki",
          "name": "AgustinWicki",
          "role_for_display": "editor",
          "url": "https://genius.com/AgustinWicki",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -2439,9 +2257,9 @@
    "producer_artists": [
     {
      "api_path": "/artists/2138599",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138599,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Valent\u00edn y",
@@ -2516,16 +2334,16 @@
    "writer_artists": [
     {
      "api_path": "/artists/2138343",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138343,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Jo Goyeneche",
      "url": "https://genius.com/artists/Jo-goyeneche"
     }
    ],
-   "lyrics": "[Letra de \"El Tonto\"]\n\nElla se cans\u00f3 de esperar\nY el tonto encegueci\u00f3\nY se acab\u00f3 su medianoche\n\nA nadie le pregunto\u2005cuanto\u2005costaba amar\nAmar ya\u2005no es cosa de locos\nDijo todo\u2005va a estar bien\nMe puedo entusiasmar\nEs solo una cuesti\u00f3n de\u205ffoco\n\nAlguien\u205fromper\u00e1\u205fsu nariz\nY ese\u205falguien ser\u00e1 el\nSonriendo\u205fen un espejo roto\n\nCubren la melancol\u00eda\nSuben la noche y el d\u00eda\n\nChicos con pasado\nChicas con futuro"
+   "lyrics": null
   },
   {
    "annotation_count": 0,
@@ -2565,19 +2383,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-golpea-lo-que-encuentra-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
      "view_apple_music_player",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -2587,6 +2402,7 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
@@ -2621,9 +2437,11 @@
      "edit_spotify_uuid",
      "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -2631,18 +2449,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610638",
@@ -2668,9 +2476,9 @@
      "artists": [
       {
        "api_path": "/artists/2138353",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138353,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Pablo Perazzo",
@@ -2683,9 +2491,9 @@
      "artists": [
       {
        "api_path": "/artists/2138352",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138352,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Francisco de la Canal",
@@ -2698,9 +2506,9 @@
      "artists": [
       {
        "api_path": "/artists/2138351",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138351,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Nicol\u00e1s Kosinski",
@@ -2723,9 +2531,9 @@
      "artists": [
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -2738,9 +2546,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -2821,29 +2629,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -2884,16 +2670,16 @@
          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/awuoaf7gq48",
          "human_readable_role_for_display": "Editor",
          "id": 6385428,
-         "iq": 253417,
+         "iq": 264450,
          "login": "AgustinWicki",
          "name": "AgustinWicki",
          "role_for_display": "editor",
          "url": "https://genius.com/AgustinWicki",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -3007,9 +2793,9 @@
    "writer_artists": [
     {
      "api_path": "/artists/2138343",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138343,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Jo Goyeneche",
@@ -3056,19 +2842,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-la-tumba-de-los-rolling-stones-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
      "view_apple_music_player",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -3078,6 +2861,7 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
@@ -3112,9 +2896,11 @@
      "edit_spotify_uuid",
      "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -3122,18 +2908,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610638",
@@ -3159,9 +2935,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -3174,9 +2950,9 @@
      "artists": [
       {
        "api_path": "/artists/2138353",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138353,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Pablo Perazzo",
@@ -3189,9 +2965,9 @@
      "artists": [
       {
        "api_path": "/artists/2138352",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138352,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Francisco de la Canal",
@@ -3204,9 +2980,9 @@
      "artists": [
       {
        "api_path": "/artists/2138351",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138351,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Nicol\u00e1s Kosinski",
@@ -3214,9 +2990,9 @@
       },
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -3229,9 +3005,9 @@
      "artists": [
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -3312,29 +3088,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -3375,16 +3129,16 @@
          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/awuoaf7gq48",
          "human_readable_role_for_display": "Editor",
          "id": 6385428,
-         "iq": 253417,
+         "iq": 264450,
          "login": "AgustinWicki",
          "name": "AgustinWicki",
          "role_for_display": "editor",
          "url": "https://genius.com/AgustinWicki",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -3498,16 +3252,16 @@
    "writer_artists": [
     {
      "api_path": "/artists/2138343",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138343,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Jo Goyeneche",
      "url": "https://genius.com/artists/Jo-goyeneche"
     }
    ],
-   "lyrics": "[Letra de \"La Tumba de los Rolling Stones\"]\n\nSe que alg\u00fan d\u00eda vendr\u00e1s\nTraer\u00e1s la calma perdida\nUna pel\u00edcula en la que\nLas hojas ya cubren\u2005la\u2005tumba de los\u2005Rolling Stones\n\nUn deseo adolescente\nDe primaver, beso\u2005en la frente\nNo me divierte acordarme de vos\nNo hay nadie sentada en tu silla amor\n\nQue lleguen las vacaciones\nQue salga el sol en todos los balcones\nQue vos vuelvas a quererme\nQue el mundo gire y devuelva mi suerte\n\nSe que alg\u00fan d\u00eda vendr\u00e1s\nTraer\u00e1s la calma perdida\nUna pel\u00edcula en la que\nLas hojas ya cubren la tumba de los Rolling Stones\n\nQue lleguen las vacaciones\nQue salga el sol en todos los balcones\nQue vos vuelvas a quererme\nQue el mundo gire y devuelva mi suerte\nLa multitud est\u00e1 en calma\nSe oye el murmullo de la nostalgia\nCaminan lento a alg\u00fan lado\nVos vas con ellos, yo estoy quebrado"
+   "lyrics": "[Letra de \"La Tumba de los Rolling Stones\"]\n\nSe que alg\u00fan d\u00eda vendr\u00e1s\nTraer\u00e1s la calma perdida\nUna pel\u00edcula en la que\nLas hojas ya cubren\u2005la\u2005tumba de los\u2005Rolling Stones\n\nUn deseo adolescente\nDe primaver, beso\u2005en la frente\nNo me divierte acordarme de vos\nNo hay nadie sentada en tu silla amor\n\nQue lleguen las vacaciones\nQue salga el sol en todos los balcones\nQue vos vuelvas a quererme\nQue el mundo gire y devuelva mi suerte\n\nSe que alg\u00fan d\u00eda vendr\u00e1s\nTraer\u00e1s la calma perdida\nUna pel\u00edcula en la que\nLas hojas ya cubren la tumba de los Rolling Stones\n\nQue lleguen las vacaciones\nQue salga el sol en todos los balcones\nQue vos vuelvas a quererme\nQue el mundo gire y devuelva mi suerte\n\nLa multitud est\u00e1 en calma\nSe oye el murmullo de la nostalgia\nCaminan lento a alg\u00fan lado\nVos vas con ellos, yo estoy quebrado"
   },
   {
    "annotation_count": 0,
@@ -3547,19 +3301,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-los-nuevos-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
      "view_apple_music_player",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -3569,6 +3320,7 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
@@ -3603,9 +3355,11 @@
      "edit_spotify_uuid",
      "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -3613,18 +3367,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610638",
@@ -3650,9 +3394,9 @@
      "artists": [
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -3665,9 +3409,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -3680,9 +3424,9 @@
      "artists": [
       {
        "api_path": "/artists/2138352",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138352,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Francisco de la Canal",
@@ -3695,9 +3439,9 @@
      "artists": [
       {
        "api_path": "/artists/2138353",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138353,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Pablo Perazzo",
@@ -3710,9 +3454,9 @@
      "artists": [
       {
        "api_path": "/artists/2138351",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138351,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Nicol\u00e1s Kosinski",
@@ -3793,29 +3537,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -3856,16 +3578,16 @@
          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/awuoaf7gq48",
          "human_readable_role_for_display": "Editor",
          "id": 6385428,
-         "iq": 253417,
+         "iq": 264450,
          "login": "AgustinWicki",
          "name": "AgustinWicki",
          "role_for_display": "editor",
          "url": "https://genius.com/AgustinWicki",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -3979,16 +3701,16 @@
    "writer_artists": [
     {
      "api_path": "/artists/2138343",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138343,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Jo Goyeneche",
      "url": "https://genius.com/artists/Jo-goyeneche"
     }
    ],
-   "lyrics": "[Letra de \"Los Nuevos\"]\n\nNo digas nada amor las cosas se pusieron raras\nTu coraz\u00f3n ya es la caja negra\u2005de\u2005este avi\u00f3n\nQuer\u00eda componer\u2005una canci\u00f3n que nos d\u00e9 de\u2005comer\nA veces lo mejor encierra todo lo peor, amor\n\nMir\u00e1bamos los\u205faviones\u205fdespegar\nQueriendo\u205festar en cualquier\u205fotro lugar\nPero prefiero\u205fdecirte que espero y llueve otra vez\n\nMir\u00e1bamos los aviones despegar\nQueriendo estar en cualquier otro lugar\nLos vivos envidian a los muertos y llueve otra vez\n\nNo digas nada amor el cielo est\u00e1 en nuestras caras\nSe que ten\u00e9s raz\u00f3n pero no lo quiero escuchar\nPodr\u00edamos cantar un himno a nuestro coraz\u00f3n\nA veces lo peor encierra todo lo peor, amor\n\nMir\u00e1bamos los aviones despegar\nQueriendo estar en cualquier otro lugar\nPero prefiero decirte que espero y llueve otra vez\n\nMir\u00e1bamos los aviones despegar\nQueriendo estar en cualquier otro lugar\nLos vivos envidian a los muertos y llueve otra vez"
+   "lyrics": null
   },
   {
    "annotation_count": 0,
@@ -4028,19 +3750,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-peliculas-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
      "view_apple_music_player",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -4050,6 +3769,7 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
@@ -4084,9 +3804,11 @@
      "edit_spotify_uuid",
      "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -4094,18 +3816,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610638",
@@ -4131,9 +3843,9 @@
      "artists": [
       {
        "api_path": "/artists/2138352",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138352,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Francisco de la Canal",
@@ -4146,9 +3858,9 @@
      "artists": [
       {
        "api_path": "/artists/2138353",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138353,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Pablo Perazzo",
@@ -4161,9 +3873,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -4176,9 +3888,9 @@
      "artists": [
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -4191,9 +3903,9 @@
      "artists": [
       {
        "api_path": "/artists/2138351",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138351,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Nicol\u00e1s Kosinski",
@@ -4274,29 +3986,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -4337,16 +4027,16 @@
          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/awuoaf7gq48",
          "human_readable_role_for_display": "Editor",
          "id": 6385428,
-         "iq": 253417,
+         "iq": 264450,
          "login": "AgustinWicki",
          "name": "AgustinWicki",
          "role_for_display": "editor",
          "url": "https://genius.com/AgustinWicki",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -4460,16 +4150,16 @@
    "writer_artists": [
     {
      "api_path": "/artists/2138343",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138343,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Jo Goyeneche",
      "url": "https://genius.com/artists/Jo-goyeneche"
     }
    ],
-   "lyrics": "[Letra de \"Pel\u00edculas\"]\n\n[Verso]\nApagamos la tele y vimos una pel\u00edcula\nSobre nosotros, nuestro amor y nuestra soledad\nEn estos sue\u00f1os\u2005no\u2005hay diamantes ni\u2005luces de verdad\nNo hay elefantes no\u2005hay gigantes, es el mundo detr\u00e1s\n\n[Coro]\n\u00bfD\u00f3nde ir\u00e1s amor?\nCuando la ficci\u00f3n nos golpee\nY el cine se quede en gigantes canciones, brillantes, vibrantes de amor\n\u00bfD\u00f3nde ir\u00e1s amor?\nCuando la ficci\u00f3n nos golpee\nY el cine se quede en gigantes canciones, brillantes, vibrantes de amor\n\n[Verso]\nApagamos la tele y vimos una pel\u00edcula\nSobre nosotros, nuestro amor y nuestra soledad\nEn estos sue\u00f1os no hay diamantes ni luces de vedad\nCorte de luz las marquesinas ya no titilan m\u00e1s\n\n[Coro]\n\u00bfD\u00f3nde ir\u00e1s amor?\nCuando la ficci\u00f3n nos golpee\nY el cine se quede en gigantes canciones, brillantes, vibrantes de amor\n\u00bfD\u00f3nde ir\u00e1s amor?\nCuando la ficci\u00f3n nos golpee\nY el cine se quede en gigantes canciones, brillantes, vibrantes de amor"
+   "lyrics": null
   },
   {
    "annotation_count": 0,
@@ -4509,19 +4199,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-sonambulos-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
      "view_apple_music_player",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -4531,6 +4218,7 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
@@ -4565,9 +4253,11 @@
      "edit_spotify_uuid",
      "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -4575,18 +4265,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610638",
@@ -4612,9 +4292,9 @@
      "artists": [
       {
        "api_path": "/artists/2138353",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138353,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Pablo Perazzo",
@@ -4627,9 +4307,9 @@
      "artists": [
       {
        "api_path": "/artists/2138352",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138352,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Francisco de la Canal",
@@ -4642,9 +4322,9 @@
      "artists": [
       {
        "api_path": "/artists/2138351",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138351,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Nicol\u00e1s Kosinski",
@@ -4667,9 +4347,9 @@
      "artists": [
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -4682,9 +4362,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -4765,29 +4445,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -4828,16 +4486,16 @@
          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/awuoaf7gq48",
          "human_readable_role_for_display": "Editor",
          "id": 6385428,
-         "iq": 253417,
+         "iq": 264450,
          "login": "AgustinWicki",
          "name": "AgustinWicki",
          "role_for_display": "editor",
          "url": "https://genius.com/AgustinWicki",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -4951,9 +4609,9 @@
    "writer_artists": [
     {
      "api_path": "/artists/2138343",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138343,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Jo Goyeneche",
@@ -5000,19 +4658,16 @@
    "url": "https://genius.com/Valentin-y-los-volcanes-tantas-flores-lyrics",
    "current_user_metadata": {
     "permissions": [
-     "follow",
-     "pyong",
-     "add_community_annotation_to",
      "view_apple_music_player",
      "create_comment",
-     "create_annotation",
-     "view_song_story_gallery",
-     "propose_lyrics_edit"
+     "view_song_story_gallery"
     ],
     "excluded_permissions": [
+     "follow",
      "award_transcription_iq",
      "remove_transcription_iq",
      "see_pageviews",
+     "pyong",
      "edit_lyrics",
      "view_annotation_engagement_data",
      "publish",
@@ -5022,6 +4677,7 @@
      "unhide",
      "toggle_featured_video",
      "add_pinned_annotation_to",
+     "add_community_annotation_to",
      "destroy",
      "mark_as_not_spam",
      "edit_spotify_annotations_for",
@@ -5056,9 +4712,11 @@
      "edit_spotify_uuid",
      "edit_vevo_url",
      "moderate_annotations",
+     "create_annotation",
      "see_short_id",
      "manage_chart_item",
      "create_tag",
+     "propose_lyrics_edit",
      "moderate_lyrics_edit_proposals",
      "preview_react_song_page"
     ],
@@ -5066,18 +4724,8 @@
      "pyong": false,
      "following": false
     },
-    "relationships": {
-     "pinned_role": null
-    },
-    "iq_by_action": {
-     "edit_metadata": {
-      "primary": {
-       "multiplier": 1,
-       "base": 2.0,
-       "applicable": true
-      }
-     }
-    }
+    "relationships": {},
+    "iq_by_action": {}
    },
    "album": {
     "api_path": "/albums/610638",
@@ -5103,9 +4751,9 @@
      "artists": [
       {
        "api_path": "/artists/2138353",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138353,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Pablo Perazzo",
@@ -5118,9 +4766,9 @@
      "artists": [
       {
        "api_path": "/artists/2138360",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138360,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Facundo Baigorri",
@@ -5133,9 +4781,9 @@
      "artists": [
       {
        "api_path": "/artists/2138343",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138343,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Jo Goyeneche",
@@ -5148,9 +4796,9 @@
      "artists": [
       {
        "api_path": "/artists/2138352",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138352,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Francisco de la Canal",
@@ -5163,9 +4811,9 @@
      "artists": [
       {
        "api_path": "/artists/2138351",
-       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "id": 2138351,
-       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+       "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
        "is_meme_verified": false,
        "is_verified": false,
        "name": "Nicol\u00e1s Kosinski",
@@ -5256,29 +4904,7 @@
         "pyong": false,
         "vote": null
        },
-       "iq_by_action": {
-        "accept": {
-         "primary": {
-          "multiplier": 1,
-          "base": 10.0,
-          "applicable": true
-         }
-        },
-        "reject": {
-         "primary": {
-          "multiplier": 1,
-          "base": 2.0,
-          "applicable": true
-         }
-        },
-        "delete": {
-         "primary": {
-          "multiplier": 1,
-          "base": 5.0,
-          "applicable": true
-         }
-        }
-       }
+       "iq_by_action": {}
       },
       "authors": [
        {
@@ -5319,16 +4945,16 @@
          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/awuoaf7gq48",
          "human_readable_role_for_display": "Editor",
          "id": 6385428,
-         "iq": 253417,
+         "iq": 264450,
          "login": "AgustinWicki",
          "name": "AgustinWicki",
          "role_for_display": "editor",
          "url": "https://genius.com/AgustinWicki",
          "current_user_metadata": {
-          "permissions": [
+          "permissions": [],
+          "excluded_permissions": [
            "follow"
           ],
-          "excluded_permissions": [],
           "interactions": {
            "following": false
           }
@@ -5442,16 +5068,16 @@
    "writer_artists": [
     {
      "api_path": "/artists/2138343",
-     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "id": 2138343,
-     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1596138983",
+     "image_url": "https://assets.genius.com/images/default_avatar_300.png?1598905858",
      "is_meme_verified": false,
      "is_verified": false,
      "name": "Jo Goyeneche",
      "url": "https://genius.com/artists/Jo-goyeneche"
     }
    ],
-   "lyrics": "[Letra de \"Tantas Flores\"]\n\nPiensa en esas cosas que te hac\u00edan feliz\nNada importar\u00e1\nCuando los esp\u00edritus de la ciudad\nSe despierten\n\nHay\u2005que\u2005prender fuego y\u2005dejarse llevar\nMientras dure\nQue iluminen todo como\u2005un vendaval\nYa es la noche\n\nPonete un vestido y sale a\u205fcaminar\nYa\u205fno\u205fqueda nadie vivo\u205fen la ciudad\nTantas\u205fflores crecen en este jard\u00edn\nPero una de ellas lleva tu nombre\n\nNo hay ning\u00fan secreto para conquistar\nEl murmullo\nDescansan los perros y a tu alrededor\nNadie llega\n\nCuenta lo cuchillos y abre el ventanal, mira el cuadro\nNadie te vendr\u00e1 esta vez a visitar\nYa es la noche"
+   "lyrics": null
   }
  ]
 }
